@@ -1,0 +1,60 @@
+{
+  "CreationDate": "2018-1-17",
+  "Commands": [
+    {
+      "Command": "label",
+      "Target": "start",
+      "Value": ""
+    },
+    {
+      "Command": "store",
+      "Target": "<Enter your teamname>",
+      "Value": "teamName"
+    },
+    {
+      "Command": "store",
+      "Target": "<Enter your username>",
+      "Value": "userName"
+    },
+    {
+      "Command": "open",
+      "Target": "https://${teamName}.slack.com/files/${userName}/images",
+      "Value": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "10000",
+      "Value": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "css=h4.title.no_preview",
+      "Value": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "30000",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=i.ts_icon.ts_icon_cog",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "link=Delete file",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=button.btn.dialog_go.c-modal_footer__go--default.btn_danger",
+      "Value": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "start",
+      "Value": ""
+    }
+  ]
+}
